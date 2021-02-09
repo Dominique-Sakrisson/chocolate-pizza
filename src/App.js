@@ -1,12 +1,13 @@
 import './App.css';
 import OurCoolerFooter from './footer';
 import OurCoolerHeader from './header.js';
-
+import IngredientList from './ingredient-list.js';
 
 function App() {
   return (
     <div className="App">
       <OurCoolerHeader />
+      <IngredientList />
       <OurCoolerFooter />
       {/* <header className="App-header">
         <img src={bigLogo} className="App-logo" alt="logo" />

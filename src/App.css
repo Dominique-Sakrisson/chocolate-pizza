@@ -23,6 +23,10 @@
   color: white;
 }
 
+/* .ingredient-list {
+  background-image: url('../list-bg.png');
+} */
+
 .footer-one {
   display: flex;
   justify-content: space-between;

@@ -52,15 +52,12 @@ const ingredientItem = [
 
 class IngredientComponent extends React.Component {
     render() {
-        return <ul>
-            <li>
-                <label>
-                    <input type='checkbox' />
-                    {this.props.foodProps.amount} {this.props.foodProps.name}
-
-                </label>
-            </li>
-        </ul>
+        return <li>
+            <label>
+                <input type='checkbox' />
+                {this.props.foodProps.amount} {this.props.foodProps.name}
+            </label>
+        </li>
     }
 }
 
@@ -75,8 +72,8 @@ export default class IngredientItem extends React.Component {
                     } />)
         return (
             <ul>
-                {ingredientList}
-            </ul>
+                { ingredientList}
+            </ul >
         );
     }
 }

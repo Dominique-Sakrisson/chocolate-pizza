@@ -27,6 +27,16 @@
   background-image: url('../list-bg.png');
 } */
 
+ul {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+li {
+  list-style: none;
+}
+
 .footer-one {
   display: flex;
   justify-content: space-between;
